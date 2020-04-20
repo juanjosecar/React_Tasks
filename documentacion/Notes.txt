@@ -1,0 +1,50 @@
+                                 ***DOCUMENTACION DEL PROYECTO***
+
+
+** Primero creamos la carpeta backend , luego abrimos una nueva terminal integrada nos ubicamos en la carpeta backend, con el comando "cd backend" , y ejecutamos el comando " npm init -y", el cual nos creara el archivo package.json el cual contendra todas las dependencias del proyectos entre otras cosas.
+____________________________________________________________________________________________________
+
+
+** Procedemos a intalar los siguientes modulos 
+- express // framewrok con el cual creamos nuestro servidor
+- mongoose // orm , biblioteca que nos permite modelar los datos antes de guardarlos., es como una modelacion.
+- cors // es para que se comuniquen los servidores tanto el de desarrollo y el de backend el cual tienes nuestra api y direcciones de internet.
+- dotenv // variables de entorno , donde guardamos variables en nuestro sistema op
+
+  comando para instalar todos los modulos :" npm i express mongoose cors dotenv"
+_____________________________________________________________________________________________________________
+** Luego procedemos a instalar nodemon  :   "npm i nodemon": //hace que el servidor se refresque automaticamente.
+_____________________________________________________________________________________________________________
+** luego de crear todas las respctivas carpetas dentro del backend, procedemos a importar en el archivo app.js lo que es el framewrok express
+_____________________________________________________________________________________________________________
+
+**Procedemos a configurar la base de datos. y hacer dicha conexion con el modulo mongoose,
+_____________________________________________________________________________________________________________
+** Luego para proteger dichos datos, de la base datos, tales como la direccion, la contrraseña y eso , procedemos a utilizar las variables de entorno , con el modulo dotenv.
+_____________________________________________________________________________________________________________
+**Luego procedemos a configurar nuestra api en el archivo app.js tales como las secciones //settings //midlewares //routes
+_____________________________________________________________________________________________________________
+**luego de crear los settings, midlewares fundamentales por asi decirlo, se proce hacer las rutas 
+_____________________________________________________________________________________________________________
+luego procedemos hacer el modelo de la base de datos. son dos modelos en la carpeta models tales como note.js y user.js
+que luego se importaran en sus respectivos controllers y se proceden hacer las consultas en los respectivas rutas cada una con su metodo get,post,put,delete. 
+_____________________________________________________________________________________________________________
+**Luego de crear la parte del backend , procedemos a arrancar con react , para creamos un proyecto de react con el comando 
+npx create-react-app my-app
+cd my-app
+npm start
+_____________________________________________________________________________________________________________
+** procedemos  a instalar react-router-dom para las respectivas rutas de la aplicacion.
+_____________________________________________________________________________________________________________
+**Luego de eso procedmos a instalar Boostrap 4 el cual es un framewrok de css , lo instalamos a traves de 
+npm i boostrap
+_____________________________________________________________________________________________________________
+procedemos a instalar axios para poder obtener la informacion del a bd y lo requerimos en la carpeta que se vaya a usar .
+
+
+intalamos npm i react-datepicker para dibujar un calendario en la ruta  de crear notas .
+
+tambien instalamos npm install timeago.js   // esto es para poder mostrar de manera mas atractiva la fecha en que fue creada dicha tarjeta, com hace un minuto etc.
+
+_____________________________________________________________________________________________________________
+
